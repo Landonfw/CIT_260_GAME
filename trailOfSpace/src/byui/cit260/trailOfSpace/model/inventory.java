@@ -93,5 +93,8 @@ public class inventory implements Serializable{
         return true;
     }
             
-    
+    public static InventoryItem[] createInventoryList() {
+        InventoryItem[] inventory = 
+            new InventoryItem[];
+    }
 }

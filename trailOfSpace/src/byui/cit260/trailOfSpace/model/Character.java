@@ -13,9 +13,7 @@ import java.util.Objects;
  */
 public enum Character implements Serializable{
     
-    Explorer("He is the space explorer."),
-    Alien1("this is one of the enemies you will encounter."),
-    Alien2("This is one of the enemies you will encounter.");
+    Explorer("He is the space explorer.");
     
     private final String type;
     private final int health;

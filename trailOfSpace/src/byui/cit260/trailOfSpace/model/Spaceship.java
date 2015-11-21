@@ -18,6 +18,10 @@ public class Spaceship implements Serializable {
     private int shieldPoints;
     private int attackPoints;
     private String location;
+    private final int width;
+    private final int length;
+    private final int height;
+   
 
     public String getDescription() {
         return description;
@@ -52,6 +56,10 @@ public class Spaceship implements Serializable {
     }
 
     public Spaceship() {
+        this.description = "\nThis will take you to different parts of the galaxy";
+        this.width = 0;
+        this.length = 0;
+        this.height = 0;
     }
 
     @Override
