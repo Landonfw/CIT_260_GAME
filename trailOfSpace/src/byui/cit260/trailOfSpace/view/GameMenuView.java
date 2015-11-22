@@ -74,10 +74,10 @@ public class GameMenuView {
 
         switch (choice) {
             case 'V':
-                System.out.println("");
+                this.displayMap();
                 break;
             case 'I':
-                System.out.println("");
+                this.viewInventory();
                 break;
             case 'S':
                 System.out.println("");
@@ -106,5 +106,9 @@ public class GameMenuView {
                 System.out.println("\n*** Invalid selection *** Try again");
                 break;
         }
+    }
+
+    public void displayMap() {
+        System.out.println("*** displayMap stub function called ***");
     }
 }
